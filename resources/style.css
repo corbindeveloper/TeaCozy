@@ -1,7 +1,69 @@
-header {
-    
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.logo {
-    font-size: 50px;
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-decoration: underline;
+    color: seashell;
+    opacity: 0.9;
+}
+
+header img {
+  padding: 0 10px;
+  height: 50px;  
+}
+
+header nav ul {
+    display: inline-flex;
+    flex-direction: row;
+    display: flex;
+    min-width: 50%;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 0 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#hero-img {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height:700px;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#hero-img .hero-text {
+    background-color: black;
+    width: 100%;
+    margin: auto;
 }
