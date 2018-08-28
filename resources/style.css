@@ -53,6 +53,7 @@ header nav ul li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 #hero-img {
@@ -66,4 +67,35 @@ header nav ul li {
     background-color: black;
     width: 100%;
     margin: auto;
+}
+
+.hero-text {
+    padding: 12px;
+}
+
+.tea-text {
+    font-weight: bolder;
+    padding: 12px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px;
+}
+
+.product img {
+    height: 200px;
+    width: 300px;
+}
+
+.product span {
+    font-weight: bolder;
+    padding: 10px 0;
 }
