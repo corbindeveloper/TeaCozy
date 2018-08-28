@@ -14,6 +14,7 @@ body {
 
 h2 {
     padding: 10px;
+    margin: 0;
 }
 header {
     display: flex;
@@ -98,4 +99,57 @@ header nav ul li {
 .product span {
     font-weight: bolder;
     padding: 10px 0;
+}
+
+.locations {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    padding: 70px 0px;
+}
+
+#locationsID {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.spot-container {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* padding: 0 125px; */
+    width: 1100px;
+    margin: auto;
+}
+
+.location-spot {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px;
+    flex-basis: 280px;
+    justify-content: center;
+    opacity: 1.0;
+    padding: 10px;
+}
+.location-spot h3 {
+    font-weight: bolder;
+    padding: 5px;
+}
+.location-spot span {
+    padding: 15px;
+    font-size: 20px;
+}
+
+footer > h1, footer > h4 {
+    margin: 40px 0;
+}
+
+footer .copyright {
+    text-align: left;
+    padding: 0 20px 20px 20px;
+    font-weight: bolder;
+    font-size: 18px;
 }
