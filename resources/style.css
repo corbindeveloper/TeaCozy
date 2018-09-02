@@ -25,6 +25,8 @@ header {
     height: 69px;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    bottom-margin: 70px;
 }
 
 header a {
